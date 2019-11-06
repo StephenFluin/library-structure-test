@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "actual-library": [
+        "dist/actual-library"
+      ],
+      "actual-library/*": [
+        "dist/actual-library/*"
+      ],
+      "@stephen/lib": [
+        "projects/actual-library/src/lib/public-api"
+      ],
+      "@stephen/lib/*": [
+        "projects/actual-library/src/lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
